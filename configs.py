@@ -4,15 +4,15 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	API_ID = int(os.environ.get("API_ID", "29104286"))
+	API_HASH = os.environ.get("fa6b2489e03daa111556af0765a3f6ef")
+	BOT_TOKEN = os.environ.get("7648689872:AAErWya9fybr07ABfcrxpemoS9A8ejddWNc")
+	BOT_USERNAME = os.environ.get("KDramaHindiSubbot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002406286339"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1334186323"))
+	DATABASE_URL = os.environ.get("mongodb+srv://rahulspc9389:rahul7906@cluster0.8urrm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	LOG_CHANNEL = os.environ.get("-1002423930863", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
